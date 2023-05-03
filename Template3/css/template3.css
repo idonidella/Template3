@@ -6,6 +6,7 @@ body {
 
 }
 
+
 * {
 
   margin: 0;
@@ -18,15 +19,19 @@ body {
 
 
 
-
-
 .top1 {
 
   width: 100%;
   height: 60px;
 
 }
+.top1mobıle{
+ 
+  display: none;
+  width: 95%;
+  height: 80px;
 
+ }
 .font1 {
 
   display: inline-block;
@@ -132,7 +137,6 @@ body {
 
 
 .mainpicturemaindiv {
-
 
   display: flex;
   width: 100%;
@@ -248,6 +252,7 @@ body {
 .kutumainn {
   width: 17px;
   height: 19px;
+  margin-top: 30px;
   background-color: rgb(163, 19, 19);
   transform: skew(-12deg);
   display: inline-block;
@@ -724,45 +729,6 @@ body {
   position: relative;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .font23 {
@@ -1325,6 +1291,7 @@ body {
   width: 360px;
   transform: skew(-15deg);
   margin-top: 20px;
+  cursor:pointer;
 }
 
 
@@ -1377,7 +1344,7 @@ body {
 .sc1 {
 
   display: inline-block;
-  width: 85.5%;
+  width: 85.4%;
   height: 100%;
   background-color: rgb(0, 0, 0);
   margin-left: 21.1px;
@@ -1521,7 +1488,13 @@ body {
 @media screen and (max-width: 568px) {
 
 
+ .top1mobıle{
+ 
 
+  width: 100%;
+  display: contents;
+
+ }
 
 
   .bbb {
@@ -1600,6 +1573,50 @@ body {
 
 
   }
+
+
+  .sc1 {
+
+    display: inline-block;
+    width: 85%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 21.1px;
+  }
+  
+  .sc2 {
+  
+    display: inline-block;
+    width: 84.2%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 21.1px;
+  }
+  
+  .sc3 {
+  
+    display: inline-block;
+    width: 83%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 21.1px;
+  }
+  
+  .sc4 {
+  
+    display: inline-block;
+    width: 84.1%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 21.1px;
+  }
+  
+
+
+
+
+
+
 
 
   .font998 {
@@ -1688,7 +1705,7 @@ body {
   .finalpartrightdiv {
 
     width: 95%;
-    height: 1380px;
+    height: 1360px;
     display: inline-block;
     margin-top: 50px;
     margin-left: 0;
@@ -1787,12 +1804,20 @@ body {
   .font1 {
 
     display: inline-block;
-    font-size: 11px;
+    font-size: 14px;
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
   }
 
+  .font1903{
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(183, 183, 183);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left: 4px;
+  }
 
   .logosize {
 
@@ -1827,7 +1852,7 @@ body {
 
 
   .top1 {
-
+    display: none;
     width: 100%;
     height: 60px;
 
@@ -1860,7 +1885,7 @@ body {
 
     text-align:start;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 31px;
     color: white;
     width: 97%;
     line-height: 42px;
@@ -1869,7 +1894,7 @@ body {
   .logo {
 
     width: 100%;
-    height: 90px;
+    height: 80px;
     display: flex;
     justify-content: center;
     background-color: rgb(13, 13, 13);
@@ -1936,7 +1961,7 @@ body {
 
   .mainpicture {
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background: url("../hero-1.jpg");
     background-repeat: no-repeat;
     background-position: top;
@@ -1951,7 +1976,8 @@ body {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 180px;
+    align-items: center;
+    padding-top: 150px;
 
 
   }
@@ -1960,7 +1986,7 @@ body {
   .maindiv1 {
 
 
-    margin-top: 50px;
+    margin-top: 0px;
     width: 94%;
 
   }
@@ -1998,15 +2024,13 @@ body {
 
   .font6 {
 
-    font-size: 15px;
+    font-size: 14px;
     margin-right: 10px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     color: rgb(255, 255, 255);
 
   }
-
-
 
   .dates {
     position: absolute;
@@ -2026,8 +2050,9 @@ body {
 
   .maindiv2box {
 
-    float: left;
-    margin-left: 3px;
+    float:none;
+    align-items: center;
+    margin-left: 0px;
     width: 360px;
     height: 655px;
     background-color: rgb(0, 0, 0);
@@ -2065,6 +2090,7 @@ body {
     background-color: rgb(163, 19, 19);
     transform: skew(-12deg);
     display: inline-block;
+    margin-top: 35px;
 
   }
 
@@ -2280,14 +2306,14 @@ body {
 
   .bigcenterrightdiv {
     width: 100%;
-    height: 1000px;
+    height: 970px;
 
   }
 
 
   .socialmedia {
 
-    width: 93%;
+    width: 93.5%;
     height: 50px;
     margin-top: 15px;
     border: 1px solid #272727;
@@ -2697,7 +2723,7 @@ body {
   .finalpart2 {
 
     width: 100%;
-    height: 1200px;
+    height: 1180px;
 
   }
 
@@ -2706,13 +2732,13 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 35px;
+    padding-top: 20px;
 
   }
 
   .fdiv1 {
 
-    height: 300px;
+    height: 330px;
     width: 88%;
     text-align: justify;
     font-size: 15px;
@@ -2741,7 +2767,7 @@ body {
 
   .fdiv2 {
 
-    height: 330px;
+    height: 350px;
     width: 390px;
     margin-left: 25px;
   }
@@ -2792,8 +2818,8 @@ body {
   .fdiv3 {
 
 
-    height: 390px;
-    width: 350px;
+    height: 340px;
+    width: 87%;
     margin-left: 5px;
 
   }
@@ -2892,7 +2918,7 @@ body {
     color: white;
     font-size: 14px;
     height: 50px;
-    width: 90%;
+    width: 95%;
     padding-left: 15px;
     transform: skew(-15deg);
     margin-top: 20px;
@@ -2901,7 +2927,6 @@ body {
 
   .button {
     font-family: 'Montserrat', sans-serif;
-    display: inline-block;
     border-radius: 4px;
     font-size: 16px;
     border: #333333 solid 1px;
@@ -2909,9 +2934,10 @@ body {
     color: white;
     font-weight: bolder;
     height: 50px;
-    width: 90%;
+    width: 95%;
     transform: skew(-15deg);
     margin-top: 20px;
+    cursor:pointer;
   }
 
   .font441 {
@@ -2926,9 +2952,6 @@ body {
     font-size: 15px;
 
   }
-
-
-
 
 
 }
