@@ -121,6 +121,7 @@ body {
 .font2 {
   transform: skew(15deg);
   margin: 0;
+  font-size: 15px;
 
 
 }
