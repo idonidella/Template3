@@ -773,6 +773,7 @@ body {
   width: 390px;
   height: 1450px;
   display: inline-block;
+  background-color: rgb(13,13,13);
 
 }
 
@@ -1705,11 +1706,12 @@ body {
 
   .finalpartrightdiv {
 
-    width: 95%;
+    width: 100%;
     height: 1360px;
     display: inline-block;
     margin-top: 50px;
     margin-left: 0;
+    background-color: rgb(13,13,13);
 
   }
 
